@@ -8,8 +8,8 @@ Hvert teammedlem skal implementere nok javascript til at indeholde og demonstrer
 
  Aflevering (9 sept. 2022 kl 8.00) :
 
-Link til løsningen dvs en fungerende online interaktiv prototype (HTML, CSS, JAVASCRIPT)
-i et link til Github  -Kildekode (eg. HTML, CSS, JAVASCRIPT) 
-Link til en video (youtube), 4-8 minutter hvor teamet forklare udvalgt JS kode, som demonstrere hele pensum 
+1. Link til løsningen dvs en fungerende online interaktiv prototype (HTML, CSS, JAVASCRIPT)
+2. i et link til Github  -Kildekode (eg. HTML, CSS, JAVASCRIPT) 
+3. Link til en video (youtube), 4-8 minutter hvor teamet forklare udvalgt JS kode, som demonstrere hele pensum 
 
 Ovenstående 3 links afleveres i  “JS Teams” regnearket.
