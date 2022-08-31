@@ -27,7 +27,7 @@ body{
     overflow: hidden;
 }
 
-/*------------Nav Section-----------*/
+/*---------------Navigation Section---------------*/
 .nav {
 	position: fixed;
 	z-index: 1000;
@@ -103,7 +103,7 @@ nav.nav-list {
     background-color: white;
 }
 
-/*--------------Main Section----------------*/
+/*---------------Main Section---------------*/
 
 .main-container{
     height: calc(100vh - 3.2rem);
@@ -148,7 +148,7 @@ nav.nav-list {
     justify-content: center;
 }
 
-/*------------Footer Section-------------*/
+/*---------------Footer Section---------------*/
 .list{
     display: flex;
     flex-direction: row;
