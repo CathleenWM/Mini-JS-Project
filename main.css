@@ -88,7 +88,7 @@ nav.nav-list {
 .brand{
 	display: flex;
 	height: 150px;
-	padding-top: 1rem;
+	/* padding-top: 1rem; */
 }
 
 .search input {
