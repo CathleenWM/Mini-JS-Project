@@ -27,6 +27,7 @@ body{
 	align-items: top;
 	height: 95px;
 	padding-left: 112px;
+	cursor: pointer;
 }
 
 /*---------------Form Section---------------*/

@@ -59,6 +59,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
+    cursor: pointer;
 } 
 
 .cta:hover {
@@ -144,6 +145,7 @@ nav.nav-list {
     background-color: #FFF;
     padding: 0 1.25rem;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .credit{
