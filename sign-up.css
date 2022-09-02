@@ -22,7 +22,7 @@ body{
 	padding: 0 10px;
 }
 
-.top .brand{
+.top .brand a{
 	display: flex;
 	align-items: top;
 	height: 95px;
