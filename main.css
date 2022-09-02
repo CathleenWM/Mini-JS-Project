@@ -40,7 +40,7 @@ body{
 	transition: 0.3s ease background-color;
 }
 
-a {
+.login {
     color: white;
     text-decoration: none;
 }
@@ -203,7 +203,7 @@ footer{
 }
 
 #language_list{
-    background-color: antiquewhite;
+    background-color: white;
     color: black;
     border-radius: 8px;
     display: flex;
@@ -223,7 +223,7 @@ footer{
 }
 
 #language_list a:hover{
-    background-color: #FFFFFF99;
+    background-color: #DFDFDF;
 }
 
 .english:hover{
