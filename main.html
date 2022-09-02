@@ -61,8 +61,7 @@
 
     <!---------------Footer Section--------------->
     <footer>
-
-        <div>
+        <div class="footer_box">
             <ul class="list">
                 <div>About</div>
                 <div>Jobs</div>
@@ -74,16 +73,33 @@
                 <div>Privacy</div>
                 <div>Terms</div>
                 <div>Cookies</div>
-                <div>English</div>
+
+                <li id="language_box">
+                    <div id="language_list" style="display: none;">
+                        <!-- Put languages here -->
+                        <p><a href="#">Deutsch</a></p>
+                        <p><a href="#">Español</a></p>
+                        <p><a href="#">Français</a></p>
+                        <p><a href="#">Italiano</a></p>
+                        <p><a href="#">Português</a></p>
+                        <p><a href="#">Tiếng Việt</a></p>
+                        <p><a href="#">Bahasa Indonesia</a></p>
+                    </div>
+                    <div id="language_select" onclick="openLanguageSelection()">
+                        <p class="english">English <i class="fa-solid fa-angle-down"></i></p>
+                        
+                    </div>
+                </li>
+
                 <div>SmugMug+Flickr.</div>
                 <i class="facebook fa-brands fa-square-facebook"></i>
                 <i class="twitter fa-brands fa-twitter"></i>
                 <i class="instagram fa-brands fa-instagram"></i>
             </ul>
         </div>
-        
     </footer>
     <!---------------End of Footer Section--------------->
     
 </body>
+<script src="footer.js"></script>
 </html>
