@@ -1,0 +1,91 @@
+body{
+	background-image: url('images/74707.jpg');
+}
+
+/*---------------Top Bar Section---------------*/
+.top-bar {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;;
+	width: 100%;
+	height: 2.3rem;
+	background-color: rgb(37, 35, 35);
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 0 10px;
+}
+
+.top .brand{
+	display: flex;
+	align-items: top;
+	height: 95px;
+	padding-left: 112px;
+}
+
+/*---------------Form Section---------------*/
+.signup-box{
+	width: 360px;
+	height: 500px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 50px;
+	background-color: white;
+	border-radius: 2.5px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 15px;
+}
+
+form{
+	width: 300px;
+	margin-left: 20px;
+}
+
+form input{
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border: 1px solid gray;
+	border-radius: 2.8px;
+	outline: none;
+}
+
+.btn-signup{
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #5ba5ff;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.p1{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 13px;
+	color: gray;
+}
+
+.p2{
+	text-align: center;
+	padding-top: 5px;
+	font-size: 15px;
+	color: black;
+}
+
+hr{
+	width: 300px;
+}
