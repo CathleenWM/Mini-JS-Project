@@ -166,10 +166,12 @@ nav.nav-list {
 
 ul>div:hover{
     color: white;
+    cursor: pointer;
 }
 
 ul>i:hover{
     color: white;
+    cursor: pointer;
 }
 
 footer{
@@ -200,6 +202,7 @@ footer{
     position: relative;
     width: fit-content;
     list-style-type: none;
+    
 }
 
 #language_list{
@@ -224,8 +227,10 @@ footer{
 
 #language_list a:hover{
     background-color: #DFDFDF;
+    cursor: pointer;
 }
 
 .english:hover{
     color: white;
+    cursor: pointer;
 }
