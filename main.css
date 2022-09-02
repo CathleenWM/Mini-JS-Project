@@ -157,11 +157,11 @@ nav.nav-list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 1rem 0rem;
     color: #FFFFFF99;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    line-height: 1.2em;
 }
 
 ul>div:hover{
@@ -186,4 +186,46 @@ footer{
 
 .instagram{
     font-size: 1.4rem;
+}
+
+#window_pane{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#language_box{
+    position: relative;
+    width: fit-content;
+    list-style-type: none;
+}
+
+#language_list{
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translateY(-110%);
+    width: 140px;
+    font-size: 14px;
+}
+#language_list a{
+    display: block;
+    padding: 2px 10px;
+}
+
+#language_list a:hover{
+    background-color: #FFFFFF99;
+}
+
+.english:hover{
+    color: white;
 }
