@@ -32,7 +32,7 @@ body{
 /*---------------Form Section---------------*/
 .signup-box{
 	width: 360px;
-	height: 530px;
+	height: 620px;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -88,4 +88,10 @@ form input{
 
 hr{
 	width: 300px;
+}
+
+span{
+	color: red;
+	font-size: 11px;
+	margin-left: 8px;
 }
