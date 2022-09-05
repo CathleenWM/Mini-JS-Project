@@ -53,13 +53,14 @@ function validateAge(){
         ageError.innerHTML = '';
         return true; 
     }
-
     // Age can't be more then 3 numbers and no letters
+    // Max length set in html
 }
 
 // ----------Validation for Email
 function validateEmail(){
     var yourEmail = document.getElementById('email').value;
+    console.log(yourEmail);
 
     // User has to enter an email
     if(yourEmail.length == 0){
@@ -67,9 +68,15 @@ function validateEmail(){
         return false;
     }
 
-    if(!yourEmail.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-a]*[\.][a-z]{2,4}$/)){
+    // Check if it's an email
+    reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+    if(!reg.test(yourEmail)){
         emailError.innerHTML = 'Invalid Email';
-        return false; // NOTE wont validate a real email, expresion might need to be changed
+        return false;
+    }else{
+        emailError.innerHTML = '';
+        return true;
     }
 }
 
