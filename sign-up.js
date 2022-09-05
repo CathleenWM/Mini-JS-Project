@@ -94,9 +94,12 @@ function validatePassword(){
     }
 
     // Password must be more the 12 characters
-    if(yourPassword.length < 12){
-        passwordError.innerHTML = 'Please use at least 12 characters';
-        return false;
-    }
+    // if(yourPassword.value.length <= 12){
+    //     passwordError.innerHTML = 'Please use at least 12 characters';
+    //     return false;
+    // }else{
+    //     passwordError.innerHTML = '';
+    //     return true;
+    // }
 
 }
