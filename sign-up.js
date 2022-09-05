@@ -1,11 +1,10 @@
 var name1Error = document.getElementById('name1-error');
 var name2Error = document.getElementById('name2-error');
 var ageError = document.getElementById('age-error');
-var olderError = document.getElementById('older-error');
 var emailError = document.getElementById('email-error');
 var passwordError = document.getElementById('password-error');
 
-// Validation for First name
+// ----------Validation for First name
 function validateName1(){
     var firstName = document.getElementById('name1').value;
 
@@ -21,7 +20,7 @@ function validateName1(){
     }
 }
 
-// Validation for Last name
+// ----------Validation for Last name
 function validateName2(){
     var lastName = document.getElementById('name2').value;
 
@@ -36,7 +35,7 @@ function validateName2(){
     }
 }
 
-// Validation for Age
+// ----------Validation for Age
 function validateAge(){
     var yourAge = document.getElementById('age').value;
 
@@ -48,10 +47,50 @@ function validateAge(){
 
     // The age must be over 13
     if(isNaN(yourAge) || yourAge < 13){
-        olderError.innerHTML = 'In order to use Flickr, you must be 13 or older';
+        ageError.innerHTML = 'In order to use Flickr, you must be 13 or older';
         return false;
     }else{
-        olderError.innerHTML = '';
-        return true; // NOTE error msg wont dissapir and nether will the ageError msg
+        ageError.innerHTML = '';
+        return true; 
     }
+
+    // Age can't be more then 3 numbers and no letters
+}
+
+// ----------Validation for Email
+function validateEmail(){
+    var yourEmail = document.getElementById('email').value;
+
+    // User has to enter an email
+    if(yourEmail.length == 0){
+        emailError.innerHTML = 'Required';
+        return false;
+    }
+
+    if(!yourEmail.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-a]*[\.][a-z]{2,4}$/)){
+        emailError.innerHTML = 'Invalid Email';
+        return false; // NOTE wont validate a real email, expresion might need to be changed
+    }
+}
+
+// ----------Validation for Password
+function validatePassword(){
+    var yourPassword = document.getElementById('password').value;
+
+    // User has to enter a password
+    if(yourPassword.length == 0){
+        passwordError.innerHTML = 'Required';
+        return false;
+    }else{
+        passwordError.innerHTML = '';
+        return true;
+    }
+
+    // Password must be more the 12 characters
+    if(yourPassword.length < 12){
+        passwordError.innerHTML = 'Please use at least 12 characters';
+        return false;
+    }
+
+
 }
