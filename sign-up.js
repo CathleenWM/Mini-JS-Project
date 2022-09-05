@@ -92,5 +92,4 @@ function validatePassword(){
         return false;
     }
 
-
 }
