@@ -9,6 +9,7 @@ let slideshow = [
 let add1 = {
     "source":"eagle.jpg", "title":"Eagle", "author":"Couleur from Pixabay"
 }
+
 slideshow.push(add1);
 
 let image = document.getElementById("image");
