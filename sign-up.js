@@ -36,7 +36,11 @@ function validateName2(){
 }
 
 // ----------Validation for Age
-function validateAge(){
+    // Age can't be more then 3 numbers and no letters
+    // Max length set in html
+    // Allows only numbers because of input type in html
+    
+    function validateAge(){
     var yourAge = document.getElementById('age').value;
 
     // User has to enter an age
@@ -53,8 +57,6 @@ function validateAge(){
         ageError.innerHTML = '';
         return true; 
     }
-    // Age can't be more then 3 numbers and no letters
-    // Max length set in html
 }
 
 // ----------Validation for Email
@@ -90,11 +92,10 @@ function validatePassword(){
         return false;
     }else{
         passwordError.innerHTML = '';
-        return true;
     }
 
     // Password must be more the 12 characters
-    if(yourPassword.value.length > 12){
+    if(yourPassword.length < 12){
         passwordError.innerHTML = 'Please use at least 12 characters';
         return false;
     }else{
