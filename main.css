@@ -249,8 +249,8 @@ footer{
     display: flex;
     flex-direction: column;
     position: fixed;
-    bottom: 4rem;
-    right: 4rem;
+    bottom: 5rem;
+    right: 2rem;
     background-color: #FFFFFF;
     border-radius: 0.5rem;
     box-shadow: 6px 6px 8px black;
