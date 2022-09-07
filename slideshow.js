@@ -1,13 +1,13 @@
 let slideshow = [
-    {"source":"giraffes.jpg", "title":"Giraffes", "author":"Gil from Pixabay"},
-    {"source":"impala.jpg", "title":"Impala and bird", "author":"Matrishva vyas from Pixabay"},
-    {"source":"zebras.jpg", "title":"Zebras", "author":"Bertsz from Pixabay"},
-    {"source":"rhinos.jpg", "title":"Rhinos", "author":"Monika from Pixabay"},
-    {"source":"tiger.jpg", "title":"White tiger and girl", "author":"Sarah Richter from Pixabay"}
+    {"source":"images/giraffes.jpg", "title":"Giraffes", "author":"Gil from Pixabay"},
+    {"source":"images/impala.jpg", "title":"Impala and bird", "author":"Matrishva vyas from Pixabay"},
+    {"source":"images/zebras.jpg", "title":"Zebras", "author":"Bertsz from Pixabay"},
+    {"source":"images/rhinos.jpg", "title":"Rhinos", "author":"Monika from Pixabay"},
+    {"source":"images/tiger.jpg", "title":"White tiger and girl", "author":"Sarah Richter from Pixabay"}
 ];
 
 let add1 = {
-    "source":"eagle.jpg", "title":"Eagle", "author":"Couleur from Pixabay"
+    "source":"images/eagle.jpg", "title":"Eagle", "author":"Couleur from Pixabay"
 }
 slideshow.push(add1);
 
