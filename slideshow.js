@@ -9,7 +9,6 @@ let slideshow = [
 let add1 = {
     "source":"eagle.jpg", "title":"Eagle", "author":"Couleur from Pixabay"
 }
-
 slideshow.push(add1);
 
 let image = document.getElementById("image");
@@ -17,6 +16,13 @@ let title = document.getElementById("title");
 let author = document.getElementById("author");
 
 let i=0;
+
+window.addEventListener("DOMContentLoaded",load)
+
+function load(){
+    console.log("function is running");
+    imageInformation();
+}
 
 function imageInformation(){
     image.src = slideshow[i].source.toString();
@@ -29,8 +35,6 @@ function imageInformation(){
         i++;
     }
 }
-
-imageInformation();
 
 setInterval(imageInformation, 5000);
 
