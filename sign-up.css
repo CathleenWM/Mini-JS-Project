@@ -25,8 +25,12 @@ body{
 .top .brand{
 	display: flex;
 	align-items: top;
-	height: 95px;
 	padding-left: 112px;
+}
+
+.flickr{
+	height: 125px;
+    width: 125px;
 }
 
 /*---------------Form Section---------------*/
