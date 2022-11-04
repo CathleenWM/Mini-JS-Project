@@ -1,4 +1,4 @@
-let slideshow = [
+const slideshow = [
     {"source":"images/giraffes.jpg", "title":"Giraffes", "author":"Gil from Pixabay"},
     {"source":"images/impala.jpg", "title":"Impala and bird", "author":"Matrishva vyas from Pixabay"},
     {"source":"images/zebras.jpg", "title":"Zebras", "author":"Bertsz from Pixabay"},
@@ -6,11 +6,16 @@ let slideshow = [
     {"source":"images/tiger.jpg", "title":"White tiger and girl", "author":"Sarah Richter from Pixabay"}
 ];
 
-let add1 = {
+// arrays bør altid være const, da de bagud opdaterer, man kan stadig add til dem
+console.log(slideshow);
+
+const add1 = {
     "source":"images/eagle.jpg", "title":"Eagle", "author":"Couleur from Pixabay"
 }
 
 slideshow.push(add1);
+
+console.log(slideshow);
 
 let image = document.getElementById("image");
 let title = document.getElementById("title");
