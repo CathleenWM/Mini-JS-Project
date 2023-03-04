@@ -16,5 +16,4 @@ function closeLanguageSelection(){
     windowPane.style.display = "none";
 }
 
-
 windowPane.addEventListener("click", closeLanguageSelection);
